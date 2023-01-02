@@ -1,5 +1,5 @@
 #services {
-    width: 100vw;
+    width: 99vw;
     max-width: 1440px;
     background: #F3FFFD;
 }
@@ -107,14 +107,14 @@
 }
 
 #drivers {
-    width: 100vw;
+    width: 99vw;
     max-width: 1440px;
     height: 465px;
     background: #F3FFFD;
 }
 
 .drivers_text {
-    width: 100vw;
+    width: 99vw;
     max-width: 1440px;
     height: 356px;
     background: #252B42;
@@ -159,7 +159,7 @@
 }
 
 #contacts {
-    width: 100vw;
+    width: 99vw;
     max-width: 1440px;
     height: 1094px;
     background: #F3FFFD;
@@ -282,7 +282,7 @@
 }
 
 .footer {
-    width: 100vw;
+    width: 99vw;
     max-width: 1440px;
     background: #FAFAFA;
 }
@@ -307,7 +307,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 99vw;
     max-width: 1440px;
     height: 180px;
     background: #FFFFFF;

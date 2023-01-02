@@ -1,13 +1,13 @@
 .header_container {
     position: relative;
-    width: 100vw;
+    width: 99vw;
     max-width: 1440px;
     height: 1133px;
     background: #F3FFFD;
 }
 
 .image_block {
-    width: 100vw;
+    width: 99vw;
     max-width: 1440px;
     height: 842px;
     background: url(../img/headerPhoto.png);
@@ -16,7 +16,7 @@
 
 .filter {
     position: absolute;
-    width: 100vw;
+    width: 99vw;
     max-width: 1440px;
     height: 842px;
     left: 0px;
@@ -56,7 +56,7 @@ a {
     padding: 80px 0px 0px;
     gap: 80px;
     position: absolute;
-    width: 100vw;
+    width: 99vw;
     max-width: 1046px;
     left: calc(50% - 1046px/2);
     top: 104px;
