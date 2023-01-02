@@ -1,0 +1,151 @@
+.header_container {
+    position: relative;
+    width: 100vw;
+    max-width: 1440px;
+    height: 1133px;
+    background: #F3FFFD;
+}
+
+.image_block {
+    width: 100vw;
+    max-width: 1440px;
+    height: 842px;
+    background: url(../img/headerPhoto.png);
+    background-position: center;
+}
+
+.filter {
+    position: absolute;
+    width: 100vw;
+    max-width: 1440px;
+    height: 842px;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navigation {
+    position: absolute;
+    width: 90vw;
+    max-width: 1322px;
+    height: 91px;
+    left: 59px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_block {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 1rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.achievement_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px 0px;
+    gap: 80px;
+    position: absolute;
+    width: 100vw;
+    max-width: 1046px;
+    left: calc(50% - 1046px/2);
+    top: 104px;
+}
+
+.header_text_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    color: #FFFFFF;
+    width: 701px;
+    height: 542px;
+}
+
+.header_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 40px;
+
+    width: 699px;
+    height: 542px;
+}
+
+.header_text>h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 63px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    width: 654px;
+}
+
+.header_text>h4 {
+    width: 688px;
+    height: 90px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.btn {
+    width: 175px;
+    height: 52px;
+    background-color: #00CCA6;
+    border: none;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+
+.achievement_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 1046px;
+}
+
+.section:last-child {
+    background: #00CCA6;
+    color: #FFFFFF;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 35px 40px;
+    gap: 10px;
+    width: 328px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+.section>h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
