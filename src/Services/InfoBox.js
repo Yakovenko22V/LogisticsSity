@@ -1,4 +1,5 @@
 import React from "react"
+import { x } from "../Header/Header"
 
 function InfoBox(props) {
 
@@ -14,7 +15,7 @@ function InfoBox(props) {
                 <p>{parahraf4}</p>
                 <p>{parahraf5}</p>
             </div>
-            <a href='#contacts'><button className='btn'>Замовити</button></a>
+            <button onClick={() => x('#contacts')} className='btn'>Замовити</button>
             <div className='frame'>
                 <img src={icon} alt='atr' />
             </div>

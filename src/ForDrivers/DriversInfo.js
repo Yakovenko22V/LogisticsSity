@@ -1,4 +1,5 @@
 import React from "react"
+import { x } from "../Header/Header"
 import Plus from '../img/Plus.png'
 
 function DriversInfo() {
@@ -8,7 +9,7 @@ function DriversInfo() {
             <div className='drivers_text'>
                 <div className='driver_header_text'>
                     <h2>Для перевізників</h2>
-                    <a href='#contacts'><button className='btn'>Приєднатися</button></a>
+                    <button onClick={() => x('#contacts')} className='btn'>Приєднатися</button>
                 </div>
                 <div className='us_plus'>
                     <div className='plus_block'>

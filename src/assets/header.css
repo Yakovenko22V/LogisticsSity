@@ -48,61 +48,62 @@
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-    font-size: 20px;
-    color: #fff;
-}
-
-
-.nav_block>a {
+.nav_block>button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
     overflow: hidden;
     position: relative;
     display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
 }
 
-.nav_block>a::before,
-.nav_block>a::after {
+.nav_block>button::before,
+.nav_block>button::after {
     content: '';
     position: absolute;
     width: 100%;
     left: 0;
 }
 
-.nav_block>a::before {
+.nav_block>button::before {
     background-color: #00CCA6;
     height: 2px;
     bottom: 0;
     transform-origin: 100% 50%;
     transform: scaleX(0);
-    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform .4s cubic-bezier(0.76, 0, 0.24, 1);
 }
 
-.nav_block>a::after {
+.nav_block>button::after {
     content: attr(data-replace);
     height: 100%;
     top: 0;
     transform-origin: 100% 50%;
     transform: translate3d(200%, 0, 0);
-    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform .4s cubic-bezier(0.76, 0, 0.24, 1);
     color: #00CCA6;
 }
 
-.nav_block>a:hover::before {
+.nav_block>button:hover::before {
     transform-origin: 0% 50%;
     transform: scaleX(1);
 }
 
-.nav_block>a:hover::after {
+.nav_block>button:hover::after {
     transform: translate3d(0, 0, 0);
 }
 
-.nav_block>a span {
+.nav_block>button span {
     display: inline-block;
     transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
 }
 
-.nav_block>a:hover span {
+.nav_block>button:hover span {
     transform: translate3d(-200%, 0, 0);
 }
 
@@ -174,6 +175,7 @@ a {
     font-weight: 900;
     letter-spacing: 1.5px;
     cursor: pointer;
+    transition: .1s linear;
 }
 
 .btn:hover {
