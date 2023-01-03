@@ -25,11 +25,8 @@
 }
 
 .company_name {
-    font-family: "Snell Roundhand", cursive;
     font-size: 30px;
-    transform: skew(-12deg);
-    background: rgba(238, 111, 87, 0.5);
-    color: #00CCA6;
+    color: #F3FFFD;
 }
 
 .navigation {
@@ -173,6 +170,7 @@ a {
     border: none;
     border-radius: 50px;
     color: #FFFFFF;
+    font-size: 20px;
     font-weight: 900;
     letter-spacing: 1.5px;
 }

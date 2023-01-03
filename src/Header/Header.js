@@ -11,7 +11,7 @@ function Header() {
                 <div className='filter'></div>
             </div>
             <div className='navigation'>
-                <div className='company_name'>@ Годонюк Л. В.</div>
+                <div className='company_name'>Годонюк Л. В.</div>
                 <div className='nav_block'>
                     <a href='#services' data-replace="Перейти"><span>Послуги</span></a>
                     <a href='#drivers' data-replace="Перейти"><span>Для перевізників</span></a>
