@@ -14,7 +14,7 @@ function InfoBox(props) {
                 <p>{parahraf4}</p>
                 <p>{parahraf5}</p>
             </div>
-            <button className='btn'>Замовити</button>
+            <button className='btn'><a href='#contacts'>Замовити</a></button>
             <div className='frame'>
                 <img src={icon} alt='atr' />
             </div>
