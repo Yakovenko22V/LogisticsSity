@@ -24,6 +24,14 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
+.company_name {
+    font-family: "Snell Roundhand", cursive;
+    font-size: 30px;
+    transform: skew(-12deg);
+    background: rgba(238, 111, 87, 0.5);
+    color: #00CCA6;
+}
+
 .navigation {
     position: absolute;
     width: 90vw;
@@ -47,6 +55,58 @@ a {
     text-decoration: none;
     font-size: 20px;
     color: #fff;
+}
+
+
+.nav_block>a {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.nav_block>a::before,
+.nav_block>a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.nav_block>a::before {
+    background-color: #00CCA6;
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.nav_block>a::after {
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    transform-origin: 100% 50%;
+    transform: translate3d(200%, 0, 0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: #00CCA6;
+}
+
+.nav_block>a:hover::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+}
+
+.nav_block>a:hover::after {
+    transform: translate3d(0, 0, 0);
+}
+
+.nav_block>a span {
+    display: inline-block;
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.nav_block>a:hover span {
+    transform: translate3d(-200%, 0, 0);
 }
 
 .achievement_block {
@@ -115,6 +175,14 @@ a {
     color: #FFFFFF;
     font-weight: 900;
     letter-spacing: 1.5px;
+}
+
+.btn:hover {
+    border: 2px solid;
+    box-shadow: inset 0 0 10px rgb(246 33 0 / 50%), 0 0 10px rgb(246 33 0 / 50%);
+    outline-color: rgba(246, 33, 0, .5);
+    outline-offset: 3px;
+    text-shadow: 1px 1px 2px #427388;
 }
 
 .achievement_section {

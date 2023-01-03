@@ -15,20 +15,20 @@ function Footer() {
                     <h2>Контакти</h2>
                     <div>
                         <img src={phone} alt='phone' />
-                        <span>Company Namber</span>
+                        <span>097 648 20 36<br />098 816 18 52</span>
                     </div>
                     <div>
                         <img src={map} alt='' />
-                        <span>Company Location</span>
+                        <span>Київ, Шота Руставеллі 13</span>
                     </div>
                     <div>
                         <img src={mail} alt='' />
-                        <span>Company email</span>
+                        <span>Для перевізників<br />margarita.zadvirna@gmail.com</span>
                     </div>
                 </div>
             </div>
             <div className='footer_text'>
-                <span>&#xa9; Всі права захищені та належать торговій марці Company Name</span>
+                <span>&#xa9; Всі права захищені та належать торговій марці Годонюк Л.В.</span>
                 <div className='social_block'>
                     <img src={facebook} alt='facebook' />
                     <img src={instagram} alt='insagram' />
