@@ -23,7 +23,7 @@ function Header() {
                     <div className='header_text'>
                         <h1>Цифрова платформа для вантажоперевезень</h1>
                         <h4>Екосистема обслуговування транспортної логістики <br />Транспортні тендери | Спот-аукціони | TMS | Трекінг вантажів</h4>
-                        <button className='btn'><a href='#contacts'>Замовити</a></button>
+                        <a href='#contacts'><button className='btn'>Замовити</button></a>
                     </div>
                 </div>
                 <div className='achievement_section'>

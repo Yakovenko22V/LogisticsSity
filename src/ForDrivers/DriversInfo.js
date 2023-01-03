@@ -8,7 +8,7 @@ function DriversInfo() {
             <div className='drivers_text'>
                 <div className='driver_header_text'>
                     <h2>Для перевізників</h2>
-                    <button className='btn'><a href='#contacts'>Приєднатися</a></button>
+                    <a href='#contacts'><button className='btn'>Приєднатися</button></a>
                 </div>
                 <div className='us_plus'>
                     <div className='plus_block'>
