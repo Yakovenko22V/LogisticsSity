@@ -15,7 +15,7 @@ function Header() {
                 <div className='nav_block'>
                     <a href='#services' data-replace="Перейти"><span>Послуги</span></a>
                     <a href='#drivers' data-replace="Перейти"><span>Для перевізників</span></a>
-                    <a href='#contacts_us' data-replace="Перейти"><span>Контакти</span></a>
+                    <a href='#contacts' data-replace="Перейти"><span>Контакти</span></a>
                 </div>
             </div>
             <div className='achievement_block'>

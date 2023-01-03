@@ -9,7 +9,7 @@ import map from '../img/map.png'
 function Footer() {
 
     return (
-        <div className='footer' id='contacts_us'>
+        <div className='footer'>
             <div className='basic_data'>
                 <div className='us_data'>
                     <h2>Контакти</h2>

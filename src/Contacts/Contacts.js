@@ -8,7 +8,7 @@ function Contacts() {
     }
 
     return (
-        <div id='contacts'>
+        <div className='contacts'>
             <div className='contacts_text'>
                 <div className='discription'>
                     <h2>Logistics Company</h2>
@@ -16,7 +16,7 @@ function Contacts() {
                 </div>
                 <div className='form_block'>
                     <img src={BackFon} alt='backfon' />
-                    <div className='form'>
+                    <div className='form' id = 'contacts'>
                         <h3>Зв'язатися з нами</h3>
                         <form>
                             <label>
@@ -40,7 +40,7 @@ function Contacts() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
